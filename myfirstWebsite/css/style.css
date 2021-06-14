@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');;
+*{
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.text-red{
+    color: red;
+}
+/*   
+.section1{
+    
+    margin-top: 50px;
+  
+    height: 12rem;
+    width: 49%;
+   
+   
+    float: left;
+    
+     background: url('../img/pexels-alex-kozlov-5529740.jpg'); 
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.box1,.box2{
+    box-shadow: 10px 10px 30px 0px black;
+    height: 12rem;
+    border: 2px solid green;
+}
+.head{
+
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: salmon;
+}
+.button-sec{
+    border: 2px solid red;
+    border-radius: 150px;
+    background-color:#fff;
+    float: left;
+
+}
+.section2{
+    font-size: 14px;
+    height: 12rem;
+    width: 49%;
+    margin-top: 50px;
+    background-color: rosybrown;
+ 
+
+    
+    
+    
+    padding: 5px;
+     
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.section21{
+    font-size: 14px;
+    margin-top: 30px;
+    height: 12rem;
+    width: 49%;
+   background-color: rosybrown;
+   padding: 5px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.section22{
+    margin-top: 30px;
+    height: 12rem;
+    width: 49%;
+    
+    background: url('../img/pexels-dominika-roseclay-1252500.jpg'); 
+   
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.secondpage2{
+    text-align: left;
+    height: 80vh;
+    content: "";
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+
+    display: block;
+    clear: both;
+    
+
+    /* height: 95vh;
+    content: "";
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    border: 2px solid pink;
+    background-color: grey;
+    background-position: center;
+    background-size: cover; */
+
+/* }  
+.secondpage{
+    background-color: grey;
+    height: 85vh;
+    content: "";
+    max-width: 100%;
+    width: 100%;
+}*/
+.head{
+
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: salmon;
+}
+.button-sec{
+    border: 2px solid red;
+    border-radius: 150px;
+    background-color:#fff;
+    float: left;
+
+}
+.secondpage{
+   max-width: 100%;
+    height: 85vh;
+    margin-top: 0;
+    background-color: grey;
+    width: 100%;
+    border: none;
+    
+  
+}
+.secondpage2{
+    margin: 0 auto;
+  
+    height: 70vh;
+    max-width: 800px;
+    
+    margin-bottom: 30px;
+
+ margin-top: 50px;
+ 
+
+    
+}
+.box1,.box2{
+    height: 40%;
+    
+}
+.box1{
+    margin-bottom: 25px;
+
+}
+ .section1{
+    width: 49.9%;
+    height: 12rem;
+
+    float: left;
+    background: url('../img/pexels-visionpic-net-2144326.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.section2{
+
+    width:49.9%;
+    height: 12rem;
+ background-color: lightcoral;
+    float: right;
+}
+.box1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.section21{
+    
+    width: 49.9%;
+    height: 12rem;
+background-color: lightcoral;
+    float: left;
+}
+.section22{
+    background-color: coral;
+    width: 49.9%;
+    height: 12rem;
+   
+    float: right;
+    background: url('../img/pexels-gabriela-palai-507410.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box2::after{
+    content: "";
+    display: block;
+    clear: both;
+}  */
+/* .box1 .section1,.box2 .section21{
+    width: 50%;
+    float: left;
+    border: 2px solid black;
+}
+.section1{
+       background: url('../img/pexels-gabriela-palai-507410.jpg');
+}
+.box1 .section2,.box2 .section22{
+    width: 50%;
+    float: right;
+    border: 2px solid black;
+}
+.section22{
+    background: url('../img/pexels-visionpic-net-2144326.jpg');
+
+
+} */
+.big{
+    float: left;
+    font-weight: bold;
+    font-size: 36px;
+    color: linen;
+}
+
+.navbar{
+    float: right;
+    color: linen;
+    padding: 1rem;
+    float: right;
+    
+ 
+}
+.big{
+    font-size: 34px;
+    color: linen;
+    font-weight: bold;
+}
+nav{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.container{
+   
+    height: 100vh;
+    content: "";
+    max-width: 100%;
+    width: 100%;
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/pexels-quintin-gellar-313782.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.container1{
+    max-width: 800px;
+   
+    height:100vh ;
+    width: 60%;
+    margin: 0 auto;
+    
+
+  
+}
+
+a:hover{
+    color: linen;
+}
+a:visited{
+    color:darkkhaki;
+}
+a:active{
+    color: darkorange;
+}
+
+.container1::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.button{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    margin: 0.5em;
+    color: red;
+  
+}
+.button-primary{
+    background-color: lightyellow;
+    border-radius: 100px;
+}
+
+
+main{
+    text-align: center;
+    
+    padding-top: 160px;
+
+    color: linen;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+
+    
+}
+/* ######################feature styling############################### */
+
+.thirdpage{
+    height: 60vh;
+    
+    
+padding: 25px;
+}
+.atmiddle{
+    
+    
+    height: 50vh;
+    
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.newone{
+    
+    height: 60%;
+    max-width: 50%;
+    max-width: 800px;
+    margin: 100px auto;
+    margin-bottom: 150px;
+}
+.sec{
+    width:33.3%;
+    float: left;
+    text-align: center;
+    
+}
+.newone::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box11{
+    background-color: rgb(48, 38, 38);
+    box-shadow: 10px 10px 30px 0px darkgray;
+}
+.box22{
+    background-color: salmon;
+    box-shadow: 10px 10px 30px 0px darkgrey;
+}
+.box33{
+ background-color: rgb(48, 38, 38);
+ box-shadow: 10px 10px 30px 0px darkgrey;
+}
+  
+.text-white{
+    color: white;
+
+}
+    
+/* ***************************footer*********************** */
+.page4{
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* **************************about page************************* */
+.cont{
+    background-color:darkslateblue ;
+   
+    height: 10vh;
+    max-width: 100%;
+}
+nav{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px auto;
+    
+    
+  
+}
+.lined{
+    border-bottom:5px solid brown;
+
+}
+
+
+
+
+.one{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: blanchedalmond;
+    
+}
+
+
+.head{
+    border-bottom:5px solid brown;
+}
+.sect1{
+    
+    height: 30px;
+    color: black;
+    float: left;
+    margin-left: 8rem;
+}
+
+.sect2{
+   
+   margin-right: 8rem;
+    height: 30px;
+    color: black;
+    float:right;
+    
+}
+.text-black{
+    color:brown;
+}
+.two{
+ max-width: 800px;
+    content:"";
+    display: block;
+    clear: both;
+    height: 66vh;
+    margin: 25px auto;
+
+    
+}
+.section{
+    margin-top: 145px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sectionno1 i{
+    display: inline-block;
+    margin-right: 0.5rem;
+    
+}
+.sectionno1 h2{
+    display: inline-block ;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.sectionno1 p{
+    font-size: 15px;
+}
+
+
+.newa{
+    float:left;
+    color: red;
+    width: 25%;
+    text-align:center;
+
+box-sizing: border-box;
+}
+.newb{
+    float:left;
+    color: red;
+
+    box-sizing: border-box;
+    text-align: center;
+    width: 25%;
+    text-align:center;
+}
+.newc{
+    width: 25%;
+    text-align:center;
+    float:left;
+    color: red;
+    
+    box-sizing: border-box;
+}
+.newd{
+    float:left;
+    color: red;
+    width: 25%;
+    text-align:center;
+    box-sizing: border-box;
+
+}
+.two{
+    content: "";
+    display: block;
+    clear: both;
+}
+.section{
+    text-align: center;
+    content: "";
+    display: block;
+    clear: both;
+height: 10vh;
+    margin: 0 auto;
+    
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+/* /////////////FOOTER of about page////////////////////// */
+.para{
+    float: left;
+    max-width: 50%;
+    color: white;
+}
+.button-new{
+    float: right;
+    border: 2px solid blueviolet;
+    border-color: dodgerblue;
+    background-color: ;
+    
+}
+.last{
+    background-color:darkslategray;
+    display: block;
+    content: "";
+    clear: both;
+    
+    height: 19.5vh;
+    
+
+}
+/* ################contact page########################## */
+
+.mainpage{
+    height: 100vh;
+    max-width: 100%;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+.another{
+    width: 500%;
+    max-width: 800px;
+    height: 80vh;
+    
+    margin: 0 auto;
+}
+.sectionno1{
+   
+    background-color: cornsilk;
+    width: 48%;
+    max-width: 500px;
+    margin-top: 2rem;
+   padding: 2px;
+    height: 75vh;
+    float: left;
+}
+.sectionno2{
+    background-color: cornsilk;
+    width: 47%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 2px;
+    
+    height:75vh;
+    float: left;
+}
+.sectionno2 label::after{
+    content: "*";
+    color: crimson;
+}
+.form-btn{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border: 3px solid darkred;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+.another{
+    content:"";
+    display: block;
+    clear: both;
+}
+.sectionno2 input{
+    
+    width: 95%;
+}
+.bigo{
+    size: 120px;
+    
+}
+.image{
+    max-width: 90%;
+    height: 42%;
+    background: url('../img/pexels-francesca-zama-5202010.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: right;
+}
+/* ####################MEDIA QYUERIES#######FOR HOME1######## */
+
+@media (min-width:0px) and (max-width:500px){
+    html{
+
+        font-size: 80%;
+    }
+   nav .navbar,.big{
+       float: none;
+       display: block;
+       text-align: center;
+       
+   }
+   main h1{
+       display: none;
+   }
+  /* .section1,.section21,.section2,.section22{
+      float: none;
+      margin: 0 auto;
+    margin-bottom: 100px;
+      display: block;
+      font-size: 10px;
+      max-width: 100%;
+  } */
+ 
+.box1,.box2{
+    height: auto;
+    width: 100%;
+}
+.img,.text{
+    float: none;
+    width: 100%;
+    text-align: center;
+} 
+.thirdpage .sec{
+    float: none;
+    width: 100%;
+text-align: center;
+
+}
+.sect1,.sect2{
+    float: none;
+    width: 100%;
+    text-align: center;
+
+
+}
+.sectionno1,.sectionno2{
+    float: none;
+    width: 100%;
+height: auto;
+    margin-bottom: 25px;
+}
+.sectionno2{
+    margin: 0;
+}
+
+} 
+
+/* #################second media query**************** */
+
+@media (min-width:502px) and (max-width:768px){
+    html{
+
+        font-size: 80%;
+    }
+
+   nav .navbar,.big{
+       float: none;
+       display: block;
+       text-align: center;
+       
+   }
+
+  /* .section1,.section21,.section2,.section22{
+      float: none;
+      margin: 0 auto;
+    margin-bottom: 100px;
+      display: block;
+      font-size: 10px;
+      max-width: 100%;
+  } */
+ 
+.box1,.box2{
+    height: auto;
+    width: 100%;
+}
+.img,.text{
+    float: none;
+    width: 100%;
+    text-align: center;
+} 
+.thirdpage .sec{
+    float: none;
+    width: 100%;
+text-align: center;
+
+}
+.sect1,.sect2{
+    float: none;
+    width: 100%;
+    text-align: center;
+
+
+}
+.sectionno1,.sectionno2{
+    float: none;
+    width: 100%;
+height: auto;
+    margin-bottom: 25px;
+}
+.sectionno2{
+    margin: 0;
+}
+
+} 
+
+/* #################for landscape mediaQ #########################*/
+
+@media (orientation:landscape) and (max-height:500){
+    .container{
+    height: 90vmax;
+}
+}
